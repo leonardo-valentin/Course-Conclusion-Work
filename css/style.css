@@ -1,0 +1,36 @@
+.imagem {
+    height: 250px;
+}
+
+#carousel {
+    margin-top: 2%;
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+#destaques {
+    width: 65%;
+    margin: 2% 2% 2% 2.5%;
+    border: 2px solid gray;
+    padding-bottom: 37%;
+}
+
+.top-left {
+    margin: 4% 0% 0% 8%;
+}
+
+.top-right {
+    margin: 10% 0% 0% 10%;
+}
+
+#recentes {
+    width: 25%;
+    margin-right: 2.5%;
+    float: right;
+    border: 2px solid gray;
+    padding-bottom: 34.5%;
+}
+
+hr{
+    border-color: black; 
+    }
