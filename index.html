@@ -8,7 +8,7 @@
     <title>Home</title>
 </head>
 <body>
-    <section>
+    <section id="barra">
     <div id="menu">
         <!--Menu-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -43,7 +43,7 @@
     </div>
     </section>
 
-    <section>
+    <section id="carousel-section">
     <div id="carousel">
         <!--Carousel-->
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -71,28 +71,47 @@
     </section>
 
     <main>
-        <section>
-        <div id="recentes">
+        <section id="recente" class="aside">
+        <div class="news">
             <!--Recente - lado direito do destaques-->
-           <h2 class="top-right">Recentes</h2>
-           <hr/>
+           <h2>Recentes</h2>
+           <hr>
+           <img id="img2" src="img/x.png" alt="vestibulinho">&nbsp&nbsp Ultima Ed.
+           <hr>
+           <img id="img2" src="img/x.png" alt="vestibulinho">&nbsp&nbsp Segunda Ed.
        </div>
-
-        <div id="destaques">
+      </section>
+      <section id="destaque" class="left">
+        <div class="news">
             <!--Destaques-->
-            <h2 class="top-left">Destaques</h2>
+            <h2>Destaques</h2>
+            <hr>
+            <div>
+              <img id="img" src="img/vest.png" alt="vestibulinho">
+            </div>
+            <br>
+            <p> bla</p>
+            <p> blaa</p>
         </div>
-
         </section>
     </main>
 
-    <div id="vest">
+    <section id="vest" class="left">
+    <div class="news">
         <!--Vestibulinho e Videos recomendados-->
-
+        <h2>Vestibulinho</h2>
     </div>
-    <div id="twitter">
-        <!--Twitter e imagem ao lado direito do div de cima-->
+    </section>
 
+    <section id="twitter" class="aside">
+    <div class="news">
+        <div>
+        <!--Twitter e imagem ao lado direito do div de cima-->
+        <img id ="img-vest" src="img/vest.png" alt="vestibulinho">
+        </div>
+
+        <h2>Twitter</h2>
+        <hr>
     </div>
 
     <footer>

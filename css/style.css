@@ -1,36 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito";
+}
+
+#menu {
+    position: relative;
+}
+
 .imagem {
     height: 310px;
 }
 
+#img {
+    width: 20%;
+    position: relative;
+    margin-left: 2%;
+}
+
+#img2 {
+    width: 26%;
+    margin-left: 5%;
+}
+
+
+#img-vest {
+    border-bottom: 2px solid gray;
+    width: 100%;
+}
+
 #carousel {
-    margin-top: 2%;
-    width: 95%;
-    margin-left: 2.5%;
+    position: relative;
+    width: 100%;
+    margin: auto;
 }
 
-#destaques {
-    width: 65%;
-    margin: 2% 2% 2% 2.5%;
+.news {
+    width: 100%;
     border: 2px solid gray;
-    padding-bottom: 37%;
+    position: relative;
+    height: 280px;
 }
 
-.top-left {
-    margin: 4% 0% 0% 8%;
-}
-
-.top-right {
-    margin: 10% 0% 0% 10%;
-}
-
-#recentes {
-    width: 25%;
-    margin-right: 2.5%;
-    float: right;
-    border: 2px solid gray;
-    padding-bottom: 34.5%;
+p {
+    margin-left: 3%;
 }
 
 hr{
     border-color: black; 
     }
+
+#destaque {
+    width: 55%;
+    position: absolute;
+    top: 65%;
+    left: 10%;
+}
+
+#vest {
+    width: 55%;
+    position: absolute;
+    top: 115%;
+    left: 10%;
+}
+
+#twitter {
+    position: absolute;
+    width: 20%;
+    top: 115%;
+    right: 10%;
+}
+
+#recente {
+    position: absolute;
+    width: 20%;
+    top: 65%;
+    right: 10%;
+}
+
+
+#carousel-section {
+    position: absolute;
+    width: 80%;
+    top: 12%;
+    left: 10%;
+}
+
+#barra {
+    position: absolute;
+    width: 100%;
+}
