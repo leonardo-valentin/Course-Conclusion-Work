@@ -87,50 +87,55 @@
       <section id="destaque" class="left">
         <div class="news">
             <!--Destaques-->
-            <nav aria-label="breadcrumb">
-              <ol class="breadcrumb">
-                <li class="breadcrumb-item" active aria-current="page">Poesias</a></li>
-                <li class="breadcrumb-item"><a href="#">Livros</a></li>
-                <li class="breadcrumb-item"><a href="#"></a>Desenhos</li>
-                <hr>
-              </ol>
-            </nav>
-
-            <div id="margem-cardd">
-              <div class="card" style="width: 18rem;">
-                <img src="img/vest.png" class="card-img-top" alt="vestibulinho">
-                <div class="card-body">
-                  <h5 class="card-title">Dialética</h5>
-                  <p class="card-text">É claro que a vida é boa<br>
-                    E a alegria, a única indizível emoção<br>
-                    É claro que te acho linda<br>
-                    Em ti bendigo o amor das coisas simples<br>
-                    É claro que te amo<br>
-                    E tenho tudo para ser feliz
-                    
-                    Mas acontece que eu sou triste...</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
+            <nav>
+              <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <a class="nav-link active" id="nav-poesias-tab" data-toggle="tab" href="#nav-poesias" role="tab" aria-controls="nav-poesias" aria-selected="true">Poesias</a>
+                <a class="nav-link" id="nav-livros-tab" data-toggle="tab" href="#nav-livros" role="tab" aria-controls="nav-livros" aria-selected="false">Livros</a>
+                <a class="nav-link" id="nav-desenhos-tab" data-toggle="tab" href="#nav-desenhos" role="tab" aria-controls="nav-desenhos" aria-selected="false">Desenhos</a>
               </div>
-              <img id="img" src="img/vest.png" alt="vestibulinho">
-            </div>
-        </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="nav-poesias" role="tabpanel" aria-labelledby="nav-poesias-tab">
+                <div id="margem-cardd">
+                  <div class="card" style="width: 18rem;">
+                    <img src="img/vest.png" class="card-img-top" alt="vestibulinho">
+                    <div class="card-body">
+                      <h5 class="card-title">Dialética</h5>
+                      <p class="card-text">É claro que a vida é boa<br>
+                        E a alegria, a única indizível emoção<br>
+                        É claro que te acho linda<br>
+                        Em ti bendigo o amor das coisas simples<br>
+                        É claro que te amo<br>
+                        E tenho tudo para ser feliz
+                        
+                        Mas acontece que eu sou triste...</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <img id="img" src="img/vest.png" alt="vestibulinho">
+                </div>
+                </div>
+                <div class="tab-pane fade" id="nav-livros" role="tabpanel" aria-labelledby="nav-livros-tab">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex ullam tempore distinctio ducimus ipsa totam, ad natus iste eos. Earum error saepe harum hic? Est alias officia sint sit quod!</div>
+                <div class="tab-pane fade" id="nav-desenhos" role="tabpanel" aria-labelledby="nav-desenhos-tab">...</div>
+              </div>
+              </div>
         </section>
     </main>
 
     <section id="vest" class="left">
     <div class="news">
         <!--Vestibulinho e Videos recomendados-->
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item" active aria-current="page">Excursões</a></li>
-            <li class="breadcrumb-item"><a href="#"></a>Expotec</li>
-          </ol>
+        <nav>
+          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <a class="nav-link active" id="nav-excursoes-tab" data-toggle="tab" href="#nav-excursoes" role="tab" aria-controls="nav-excursoes" aria-selected="true">Excursões</a>
+            <a class="nav-link" id="nav-expotec-tab" data-toggle="tab" href="#nav-expotec" role="tab" aria-controls="nav-expotec" aria-selected="false">Expotec</a>
+          </div>
         </nav>
-
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="nav-excursoes" role="tabpanel" aria-labelledby="nav-excursoes-tab">
+           <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
               <img class="d-block w-100 imagem" src="img/carousel1.png" alt="Primeiro Slide">
             </div>
             <div class="carousel-item">
@@ -151,7 +156,10 @@
         </div>
         <h2 style="text-align:center;"><b>Festa do Livro da USP</h2></b>
         <p style="font-size:21px; margin-left:2%;margin-right:2%;">Quem é aficionado pelos livros sabe a emoção de visitar a “Festa do Livro da USP”. Anualmente, diversas editoras se reúnem em alguns prédios da universidade paulista para vender alguns de seus títulos com descontos a partir de 50%. Cada estande era fortemente disputada pelos leitores vorazes!</p>
+        </div>
+        <div class="tab-pane fade" id="nav-expotec" role="tabpanel" aria-labelledby="nav-expotec-tab">... Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, sint. Vitae est nesciunt commodi, tempore molestiae, culpa consequuntur nam facilis dolorum eius architecto debitis unde aspernatur facere? Impedit, laudantium distinctio!</div>
     </div>
+   </div>
     </section>
 
     <section id="twitter" class="aside">
