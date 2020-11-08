@@ -10,6 +10,11 @@ body {
     width:100%;
 }
 
+#logo-etec{
+    width: 100px;
+    height: 38px;
+}
+
 .teste {
     height: 470px;
 }
