@@ -15,6 +15,18 @@ body {
     height: 38px;
 }
 
+#cartaz {
+    width: 400px;
+    float: right;
+    margin-left: 3%;
+    margin-top: 13%;
+}
+
+#cartaz-card{
+    width: 385px;
+    height: 400px;
+}
+
 .teste {
     height: 470px;
 }
