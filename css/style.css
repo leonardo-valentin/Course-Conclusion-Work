@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Nunito";
+    font-family: "Tahoma";
 }
 
 #menu {
@@ -64,6 +64,10 @@ body {
     margin: auto;
 }
 
+.slide {
+    height: 335px;
+}
+
 .news {
     width: 100%;
     border: 2px solid gray;
@@ -72,7 +76,7 @@ body {
 
 hr{
     border-color: black; 
-    }
+}
 
 #destaque {
     width: 55%;
@@ -84,7 +88,7 @@ hr{
 #vest {
     width: 55%;
     position: absolute;
-    top: 160%;
+    top: 170%;
     left: 10%;
 }
 
@@ -119,8 +123,8 @@ hr{
 footer {
     text-align: center;
     padding: 40px;
-    position:absolute;
-    top: 255%;
+    position: absolute;
+    top: 270%;
     width: 100%;
     background-color: #161616;
 }
@@ -136,7 +140,13 @@ footer a {
     color: gray;
 }
 footer img {
-    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-facebook {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 small {
