@@ -5,69 +5,6 @@ body {
     font-family: "Tahoma";
 }
 
-#menu {
-    position: absolute;
-    width:100%;
-}
-
-#logo-etec{
-    width: 100px;
-    height: 38px;
-}
-
-#cartaz {
-    width: 400px;
-    float: right;
-    margin-left: 3%;
-    margin-top: 13%;
-}
-
-#cartaz-card{
-    width: 385px;
-    height: 400px;
-}
-
-.teste {
-    height: 470px;
-}
-
-.imagem {
-    height: 310px;
-}
-
-#margem-cardd {
-    margin-left: 2%;
-    display: flex;
-}
-
-#img {
-    width: 40%;
-    margin-left: 10%;
-    display: flex;
-    margin-bottom: 2%;
-}
-
-#img2 {
-    width: 26%;
-    margin-left: 5%;
-}
-
-
-#img-vest {
-    border-bottom: 2px solid gray;
-    width: 100%;
-}
-
-#carousel {
-    position: relative;
-    width: 100%;
-    margin: auto;
-}
-
-.slide {
-    height: 335px;
-}
-
 .news {
     width: 100%;
     border: 2px solid gray;
@@ -78,6 +15,49 @@ hr{
     border-color: black; 
 }
 
+
+
+/* <Menu> */
+#menu {
+    position: absolute;
+    width:100%;
+}
+
+#logo-etec{
+    width: 100px;
+    height: 38px;
+}
+
+#barra {
+    position: absolute;
+    width: 100%;
+}
+/* </Menu> */
+
+
+
+/* <Carousel> */
+#carousel {
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+
+#carousel-section {
+    position: absolute;
+    width: 80%;
+    top: 12%;
+    left: 10%;
+}
+
+.slide {
+    height: 335px;
+}
+/* </Carousel> */
+
+
+
+/* <Esquerda> */
 #destaque {
     width: 55%;
     position: absolute;
@@ -92,13 +72,49 @@ hr{
     left: 10%;
 }
 
-#twitter {
-    position: absolute;
-    width: 20%;
-    top: 115%;
-    right: 10%;
+.teste {
+    height: 470px;
 }
 
+
+#margem-cardd {
+    margin-left: 2%;
+    display: flex;
+}
+
+#cartaz {
+    width: 400px;
+    float: right;
+    margin-left: 3%;
+    margin-top: 13%;
+}
+
+#cartaz-card{
+    width: 385px;
+    height: 400px;
+}
+
+#galeria {
+    width: 55%;
+    position: absolute;
+    top: 182%;
+    left: 10%;
+}
+
+.galeria-imagens {
+    width: 50%;
+    height: 50%;
+}
+
+#galerias {
+    display: flex;
+}
+
+/* </Esquerda> */
+
+
+
+/* <Direita> */
 #recente {
     position: absolute;
     width: 20%;
@@ -107,19 +123,28 @@ hr{
     text-align: center;
 }
 
-
-#carousel-section {
+#twitter {
     position: absolute;
-    width: 80%;
-    top: 12%;
-    left: 10%;
+    width: 20%;
+    top: 115%;
+    right: 10%;
 }
 
-#barra {
-    position: absolute;
+#img-vest {
+    border-bottom: 2px solid gray;
     width: 100%;
 }
 
+#img-vest1 {
+    border-bottom: 2px solid gray;
+    width: 100%;
+    height: 400px;
+}
+/* </Direita> */
+
+
+
+/* <Footer> */
 footer {
     text-align: center;
     padding: 40px;
@@ -152,3 +177,16 @@ footer img {
 small {
     color: gray;
 }
+
+#contato {
+    top: 350%;
+}
+/* </Footer> */
+
+
+
+
+
+
+
+
