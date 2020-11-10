@@ -139,6 +139,43 @@ hr{
     width: 100%;
     height: 400px;
 }
+
+#up {
+    width:100%;
+    height: 50px;
+    text-align: center;
+    margin-top: 2%;
+    border-bottom: 2px solid gray;
+}
+
+#noticias {
+    width:100%;
+    height: 120px;
+    font-size: 15px;
+    margin-left: 5%;
+    margin-top: 2%;
+    border-bottom: 2px solid gray;
+}
+
+.new {
+    height: 64px;
+}
+
+#noticias2 {
+    width:100%;
+    height: 80px;
+    font-size: 15px;
+    margin-left: 5%;
+    margin-top: 8%;
+    border-bottom: 2px solid gray;
+}
+
+#maisrecentes {
+    position: absolute;
+    width: 20%;
+    top: 245%;
+    right: 10%;
+}
 /* </Direita> */
 
 
