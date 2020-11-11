@@ -49,8 +49,18 @@ hr{
     left: 10%;
 }
 
+#carousel-section2 {
+    position: absolute;
+    width: 80%;
+    top: 80%;
+    left: 10%;
+}
 .slide {
     height: 335px;
+}
+
+.slide2 {
+    height: 550px;
 }
 /* </Carousel> */
 
@@ -216,6 +226,10 @@ small {
 
 #contato {
     top: 350%;
+}
+
+#sobre {
+    top: 190%;
 }
 /* </Footer> */
 
