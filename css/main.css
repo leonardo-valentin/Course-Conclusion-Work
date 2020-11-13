@@ -1,0 +1,311 @@
+.titulo{
+	color: #04B4AE;
+    font-family: arial;
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+.titulo-ctt{
+    color: #04B4AE;
+    font-family: arial;
+    font-size: 30px;
+    padding-left: 0px;
+}
+
+.carrossel{
+    height: 285px;
+    width: 1000px;
+    position: top;
+    margin-left: 175px;
+    margin-right: 175px;
+    margin-top: 3px;
+}
+
+.carrossel-esp{
+    height: 570px;
+    width: 900px;
+    position: top;
+    margin-left: 220px;
+    margin-right: 300px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.imagem{
+    height: 200px;
+    width: 900px;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 5px;
+    margin-left: 225px;
+    margin-right: 225px;
+    position: top;
+
+    box-sizing: border-box;
+
+    border: 1px solid rgba(0,0,0,.8);
+    border-radius: .25rem;
+
+    background-color: ;
+}
+
+.tabela{
+    height: 50px;
+    width: 920px;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 5px;
+    margin-left: 210px;
+    position: top;
+
+    box-sizing: border-box;
+
+    border: 1px solid rgba(0,0,0,.233);
+    border-radius: .25rem;
+
+}
+
+.tabela-2{
+    height: 920px;
+    width: 920px;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 0px;
+    margin-left: 210px;
+    position: top;
+
+}
+
+#carousel {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+#carousel-section {
+    position: absolute;
+    width: 80%;
+    top: 12%;
+    left: 10%;
+}
+
+.th-quadro{
+    width: 25%;
+    border-style: none;
+    margin-right: 88.75px;
+    margin-left: 88.75px;
+    margin-top: 2%;
+    float: left; 
+    height: 50px;
+    position: center;
+    font-size: 20px;
+}
+
+body{
+    width: 100% !important;
+    height: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+}
+
+.table-quadro{
+    float: top;
+    margin-top: 5px;
+    margin-left: 200px;
+    margin-right: 200px;
+    width: 950px;
+    height: 70px;
+
+    cursor: default;
+
+    border-style: solid; 
+    border-color: #151515;
+    border-width: 2px;
+
+    box-sizing: border-box;
+
+    border: 2px solid rgba(0,0,0,.455);
+    border-radius: .25rem;
+}
+
+.quadro-gremio li{
+    list-style: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10%
+}
+
+.quadro-gremio li:hover{
+    color: #00bac6;
+}
+
+.quadro-gremio{
+    float: top;
+    margin-top: 0px;
+    width: 950px;
+    height: 700px;
+
+    box-sizing: border-box;
+    border-style: none;
+}
+
+.quadro-divisao {
+    width: 25%;
+    height: 740px;
+    float: left;
+    padding-top: 20px;
+
+    font-family: Libre Franklin, Arial, Questrial;
+    font-size: 140%;
+
+    box-sizing: border-box;
+
+    border: 1px solid rgba(0,0,0,.455);
+    border-radius: .25rem;
+}
+
+.quadro-sala {
+    width: 25%;
+    height: 740px;
+    float: left;
+
+    position: relative;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 0px;
+
+    font-family: Libre Franklin, Arial, Questrial;
+    font-size: 140%;
+
+    box-sizing: border-box;
+
+    border: 1px solid rgba(0,0,0,.455);
+    border-radius: .25rem;
+}
+
+
+.scroll-ctt{
+    float: top;
+    height: 200px;
+    width: 650px;
+    background: #fff;
+    overflow-y: scroll;
+    margin-bottom: 25px;
+    font-size: 20px;
+
+    padding-left: 10px;
+    padding-top: 5px;
+
+    border: 1px solid rgba(0,0,0,.325);
+    border-radius: .25rem;
+
+    box-sizing: border-box;
+    margin-left: 350px;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    position: absolute;
+    top: 270%;
+    width: 100%;
+    background-color: #161616;
+}
+
+footer li {
+    display: inline-block;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer a {
+    color: gray;
+}
+footer img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-facebook {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+small {
+    color: gray;
+}
+
+#contato {
+    top: 305%;
+}
+
+#sobre {
+    top: 190%;
+}
+
+#logocps {
+    height: 40px;
+}
+
+.menu {
+    position: top;
+    margin: 0 auto;
+    float: top;
+    width:100%;
+}
+
+#logo-etec{
+    height: 38px;
+}
+#barra {
+    position: relative;
+    width: 100%;
+}
+
+
+
+.scroll-quadro {
+float: top;
+height: 700px;
+width: 965px;
+background: #fff;
+overflow-y: scroll;
+overflow-x: none
+font-size: 20px;
+
+box-sizing: border-box;
+
+border: 1px solid rgba(0,0,0,.325);
+border-radius: .25rem;
+
+margin-bottom: 25px;
+margin-left: 200px;
+margin-top: 10px;
+}
+
+.table{
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.scroll-esp{
+float: top;
+height: 260px;
+width: 800px;
+background: #fff;
+overflow-y: scroll;
+font-size: 20px;
+
+box-sizing: border-box;
+
+border: 1px solid rgba(0,0,0,.325);
+border-radius: .25rem;
+
+margin-bottom: 5px;
+margin-left: 275px;
+margin-top: 25px;
+}

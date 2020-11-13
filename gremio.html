@@ -1,28 +1,43 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Grêmio</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+
+  <link rel="stylesheet" type="text/css" href="css/scrollbar.css">
+
+  <link rel="stylesheet" type="text/css" href="css/color-scroll.css">
+
+  <title>ETEC News</title>
+  
 </head>
 <body>
-    <section id="barra">
-    <div id="menu">
+	<section id="barra" style="float: top;">
+      <div id="menu">
         <!--Menu-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">
-                <img  src="img/logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="">    
+            <a class="navbar-brand" href="http://www.etecjau.com.br/etecjau/">
+                <img  src="icons/logo etec.png" id="logo-etec" class="d-inline-block align-top" alt="">    
               </a>
-            <a class="navbar-brand" href="#">Jornal da ETEC</a>
+            <a class="navbar-brand" href="#">ETEC News</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(Página atual)</span></a>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="cultura.html">Cultura</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="eventos.html">Eventos</a>
@@ -30,8 +45,8 @@
                 <li class="nav-item">
                   <a class="nav-link" href="esporte.html">Esportes</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="gremio.html">Gremio</a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="gremio.html">Gremio <span class="sr-only">(Página atual)</span></a>
                   </li>
                <li class="nav-item">
                     <a class="nav-link" href="sobre.html">Sobre</a>
@@ -40,37 +55,246 @@
             </div>
             <form class="form-inline">
                 <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+                <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Pesquisar</button>
               </form>
         </nav>
-    </div>
+      </div>
     </section>
 
-    <footer class="footer" id="contato">
-        <a href="tel:111234-5678">Telefone: (14) 4843-4314</a>
+    <div class="carrossel">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="img\portal.jpg" alt="Primeiro slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img\foda.jpg" alt="Segundo slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img\teste2.jpg" alt="Terceiro slide">
+          </div>
+
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="js\main.js"></script>
+
+      <div class="imagem">
+      </div>
+
+		<table class="table-quadro">
+			<tr>
+        	<th class="th-quadro">Nome</th>
+        	<th class="th-quadro">Função</th>
+        	<th class="th-quadro">Sala</th>
+        	<th class="th-quadro">Curso</th>
+			</tr>
+		</table>
+    
+
+<div class="col-md-6 mb-4" style="margin-left: -20px; margin-top: -12px;">
+	<div class="scroll-quadro scrollbar-primary">
+	<div class="force-overflow">
+      <div class="quadro-gremio">
+        <div class="quadro-divisao">
+          <li>Robson Nascimento</li>
+          <li>Fabiola Melo vidal</li>
+          <li>Cicero Leandro</li>
+          <li>Adriana</li>
+          <li>Givanilson Santos</li>
+          <li>Wenderson</li>
+          <li>Reginaldo Florêncio</li>
+          <li>Cyntia Gabriela</li>
+          <li>Givaldo</li>
+          <li>Roberto</li>
+      	</div>
+        <div class="quadro-divisao">  
+          <li>Presidente</li>
+          <li>Vice Presidente</li>
+          <li>Tesoureiro Geral</li>
+          <li>Secretária 1</li>
+          <li>Diretor Social</li>
+          <li>Diretor de Imp</li>
+          <li>Diretor de Esp</li>
+          <li>Diretora de cult</li>
+          <li>Diretor de Saúde</li>
+          <li>Diretor meio amb</li>
+        </div>
+        <div class="quadro-sala">
+          <li>12</li>
+          <li>02</li>
+          <li>01</li>
+          <li>01</li>
+          <li>04</li>
+          <li>05</li>
+          <li>06</li>
+          <li>11</li>
+          <li>07</li>
+          <li>07</li>
+        </div>
+        <div class="quadro-divisao">
+          <li>Terceiro ADM </li>
+          <li>Terceiro INFO</li>
+          <li>Primeiro DS</li>
+          <li>Primeiro DS</li>
+          <li>Segundo Edif</li>
+          <li>Segundo DS</li>
+          <li>Primeiro Edif</li>
+          <li>Segundo ADM</li>
+          <li>Primeiro ADM</li>
+          <li>Primeiro ADM</li>
+        </div>
+      </div>
+  </div>
+</div>
+</div>
+      <div class="row" style="width: 100%;">
+        <div class="col-md-6 mb-4">
+          <div class="scrollbar scrollbar-primary">
+            <div class="force-overflow">
+            <h4 class="titulo"><strong>Prorposta de Chapa do Grêmio</strong></h4>
+<p>
+Como nossa chapa vai atuar!
+</p>
+<p>
+• Na Escola:<br>
+</p>
+<p>
+- Vamos atuar junto à diretoria e professores.<br>
+- Vamos agir em união para com vocês alunos.<br>
+</p>
+<p>
+• Na Participação dos Alunos:<br>
+</p>
+<p>
+- Premiaremos o aluno com o menor numero de faltas e a melhor média.<br>
+- Sortearemos um brinde em realizações de palestras.<br>
+- Queremos a presença dos representantes de classe em todas as nossas reuniões.<br>
+</p>
+<p>
+• Na Informação aos alunos:<br>
+</p>
+<p>
+- Informação sobre concursos públicos.<br>
+- Prestaremos contas do que fizemos.<br>
+- Haverá a radio nos intervalos para recados dos alunos.<br>
+- Faremos uma sede para maiores informações.<br>
+- Faremos os achados e perdidos da escola.<br>
+</p>
+<p>
+• Nos Esportes:<br>
+</p>
+<p>
+- Realizações de campeonatos de futsal, handebol, vôlei, etc.<br>
+- Realizações de atletismo, gincanas, de jogos de baralho, xadrez, dama etc.<br>
+</p>
+<p>
+• Nos Eventos Sociais:<br>
+</p>
+<p>
+- Campanha do agasalho, alimento etc.<br>
+- Reciclagem de lixo.<br>
+- Campanhas de prevenção (gravidez precoce, drogas etc.)<br>
+- Grupos de discussão (preconceito, inclusão social)<br>
+</p>
+<p>
+• Nos Eventos Culturais:<br>
+</p>
+<p>
+- Concurso dança<br>
+- Concursos de desenhos, pintura e poesias.<br>
+- Festas<br>
+- Semana Cultural<br>
+- capoeira<br>
+</p>
+<p>
+• Nas Parcerias:<br>
+</p>
+<p>
+- Buscaremos patrocínio nos comércios.<br>
+- Buscaremos apoio do governo Municipal.<br>
+- Buscaremos parceria com Amigos da Escola.<br>
+</p>
+            </div>
+          </div>
+
+          <div class="scroll-ctt scrollbar-primary">
+            <div class="force-overflow">
+              <h4 class="titulo-ctt"><strong>Contato do Grêmio</strong></h4>
+<p>
+Contatos/Duvidas
+</p>
+<p>
+Nós do gremio estudantil a força da juventude em buscar de ajudar vocês alunos criamos esses links de acesso:
+</p>
+<p>
+Site do Mundo Jovem:<br>
+	<a href="www.mundojovem.pucrs.br">www.mundojovem.pucrs.br</a>
+</p>
+<p>
+Site da União dos Jovens socialistas:<br>
+	<a href="www.ujs.org.br">www.ujs.org.br</a>
+</p>
+<p>
+Email do Grêmio Estudantil A Força da Juventude:<br>
+	<a href = "gremioestudantileal@hotmail.com">gremioestudantileal@hotmail.com</a>
+</p>
+<p>
+Sites de Concursos:<br>
+	<a href="www.lksites.com/concursospub.shtml">www.lksites.com/concursospub.shtml</a><br>
+	<a href="www.ipad.com.br">www.ipad.com.br<a>
+</p>
+<p>
+Portal oficial do estudante:<br>
+	<a href="www.une.org.br">www.une.org.br</a>
+</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer" id="contato">
+        <a href="tel:143622-3566">Telefone: (14) 3622-3566</a>
         <ul class="footer__socialmedia">
           <li>
-            <a href="https://twitter.com" target="_blank" class="footer__twitter">
+            <a href="https://twitter.com/paulasouzasp" target="_blank" class="footer__twitter">
               <img src="img/twitter.png" alt="Logotipo twitter">
             </a>
           </li>
           <li>
-            <a href="https://facebook.com" target="_blank" class="footer__facebook">
-              <img src="img/facebook.png" alt="Logotipo facebook">
+            <a href="https://www.facebook.com/etec.joaquimferreiradoamaral.1" target="_blank">
+              <img src="img/facebook.png" alt="Logotipo facebook" class="footer-facebook">
             </a>
           </li>
           <li>
-            <a href="https://youtube.com" target="_blank" class="footer__youtube">
-              <img src="img/youtube.png" alt="Logotipo Youtube">
+            <a href="http://www.etecjau.com.br/etecjau/" target="_blank" class="footer__youtube">
+              <img src="img/cps.png" id="logocps" alt="Logotipo Youtube">
             </a>
           </li>
         </ul>
         <div>
-          <small>Copyright © Jornal Da Etec Joaquim Ferreira do Amaral 2020</small>
+          <small>Copyright © EtecNews2020</small>
         </div>
       </footer>
+  
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+    </body>
   </html>
