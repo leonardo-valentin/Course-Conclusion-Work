@@ -39,20 +39,13 @@
     margin-top: 5px;
     margin-left: 225px;
     margin-right: 225px;
+    margin-bottom: 10px;
     position: top;
 
     box-sizing: border-box;
 
     border: 1px solid rgba(0,0,0,.8);
     border-radius: .25rem;
-
-    background-color: ;
-}
-
-.imagem {
-    margin: 0 auto;
-    width: 1129px;
-    margin-bottom: 5%;
 }
 
 .tabela{
@@ -68,7 +61,6 @@
 
     border: 1px solid rgba(0,0,0,.233);
     border-radius: .25rem;
-
 }
 
 .tabela-2{
@@ -79,7 +71,6 @@
     margin-top: 0px;
     margin-left: 210px;
     position: top;
-
 }
 
 #carousel {
@@ -87,6 +78,7 @@
     width: 100%;
     margin: 0 auto;
 }
+
 #carousel-section {
     position: absolute;
     width: 80%;
@@ -138,7 +130,7 @@ body{
     list-style: none;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 10%
+    padding-left: 5%;
 }
 
 .quadro-gremio li:hover{
@@ -157,12 +149,12 @@ body{
 
 .quadro-divisao {
     width: 25%;
-    height: 740px;
+    height: 795px;
     float: left;
     padding-top: 20px;
 
     font-family: Libre Franklin, Arial, Questrial;
-    font-size: 140%;
+    font-size: 23px;
 
     box-sizing: border-box;
 
@@ -172,16 +164,16 @@ body{
 
 .quadro-sala {
     width: 25%;
-    height: 740px;
+    height: 795px;
     float: left;
 
     position: relative;
     padding-left: 10%;
     padding-right: 10%;
-    padding-top: 0px;
+    padding-top: 20px;
 
     font-family: Libre Franklin, Arial, Questrial;
-    font-size: 140%;
+    font-size: 23px;
 
     box-sizing: border-box;
 
@@ -210,6 +202,61 @@ body{
     margin-bottom: 10px;
 }
 
+
+
+.footer {
+    text-align: center;
+    padding: 40px;
+    position: relative;
+    width: 100%;
+    background-color: #161616;
+}
+
+footer li {
+    display: inline-block;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer a {
+    color: gray;
+}
+
+footer img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-facebook {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+small {
+    color: gray;
+}
+
+.menu {
+    position: top;
+    margin: 0 auto;
+    float: top;
+    width:100%;
+}
+
+#logo-etec{
+    width: 100px;
+    height: 50px;
+}
+#logocps {
+    height: 40px;
+}
+
+#barra {
+    position: relative;
+    width: 100%;
+}
+
 footer {
     text-align: center;
     padding: 40px;
@@ -229,6 +276,7 @@ footer li {
 footer a {
     color: gray;
 }
+
 footer img {
     display: flex;
     justify-content: space-between;
@@ -243,42 +291,12 @@ small {
     color: gray;
 }
 
-#contato {
-    top: 315%;
-}
-
-#sobre {
-    top: 190%;
-}
-
-#logocps {
-    height: 40px;
-}
-
-.menu {
-    position: top;
-    margin: 0 auto;
-    float: top;
-    width:100%;
-}
-
-#logo-etec{
-    height: 38px;
-}
-#barra {
-    position: relative;
-    width: 100%;
-}
-
-
-
 .scroll-quadro {
 float: top;
 height: 700px;
 width: 965px;
 background: #fff;
 overflow-y: scroll;
-overflow-x: none;
 font-size: 20px;
 
 box-sizing: border-box;
