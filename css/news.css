@@ -1,0 +1,46 @@
+.News-Title {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 3%;
+}
+
+#title {
+    margin-bottom: 1%;
+}
+
+#etecnews {
+    height: 125px;
+}
+
+.riscos {
+    width: 350px;
+}
+
+#main-img {
+    margin-left: 8%;
+}
+
+.mainimage {
+    width: 580px;
+    height: 560px;
+}
+
+#main-title {
+    position: absolute;
+    background-color: blue;
+    width: 620px;
+    height: 320px;
+    top: 58%;
+    left: 33%;
+}
+
+#mainlegenda {
+    width: 650px;
+    height: 38px;
+}
+
+#maintitle {
+    color: white;
+    font-family: "Tahoma";
+    font-size: 85px;
+}
