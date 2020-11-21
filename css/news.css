@@ -17,7 +17,7 @@
 }
 
 #main-img {
-    margin-left: 8%;
+    margin-left: 11%;
 }
 
 .mainimage {
@@ -27,15 +27,16 @@
 
 #main-title {
     position: absolute;
-    background-color: blue;
+    background-color: rgb(68,114,196);
     width: 620px;
     height: 320px;
-    top: 58%;
-    left: 33%;
+    top: 45%;
+    left: 42%;
 }
 
 #mainlegenda {
-    width: 650px;
+    margin-left: 11%;
+    width: 651px;
     height: 38px;
 }
 
@@ -43,4 +44,89 @@
     color: white;
     font-family: "Tahoma";
     font-size: 85px;
+}
+
+#texto-banner {
+    position: absolute;
+    width: 350px;
+    height: 220px;
+    top: 102%;
+    left: 61%;
+    color: rgb(68,114,196);
+    font-size: 32px;
+}
+
+#colunas {
+    display: flex;
+}
+
+#coluna1 {
+    margin-top: 3%;
+    width: 358px;
+    border-right: solid gray 0.5px;
+    display: flex; 
+    margin-left: 11%;
+    font-size: 23px;
+}
+
+#coluna2 {
+    margin-top: 3%;
+    margin-left: 2%;
+    width: 358px;  
+    display: flex;  
+    border-right: solid gray 0.5px 
+}
+
+#coluna3 {
+    margin-left: 2%;
+    margin-top: 3%;
+    width: 358px;   
+    display: flex;  
+}
+
+#segundotitulo {
+    margin-left: 11%;
+    margin-top: 2%;
+}
+
+#paragraph {
+    margin-left: 1%;
+    width: 215px;
+}
+
+#paragraph2 {
+    width: 215px;
+    margin-left: 2%;
+}
+
+#paragraphs {
+    display: flex;
+}
+
+#card1 {
+    background-color: red;
+    width: 218px;
+    height: 380px;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+#card2 {
+    background-color: red;
+    width: 218px;
+    height: 380px;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+#card3 {
+    background-color: red;
+    width: 218px;
+    height: 380px;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+#flex {
+    display: flex;
 }
