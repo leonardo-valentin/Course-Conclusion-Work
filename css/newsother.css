@@ -9,6 +9,13 @@
     font-size: 15px;
 }
 
+.textoalerta {
+    width: 50%;
+    margin-left: 7%;
+    margin-top: 1%;
+    font-size: 14px;
+}
+
 .imgalerta {
     width:  38px;
     height: 38px;
@@ -83,4 +90,38 @@
 
 .lastparagraph {
     margin-left: 1%;
+}
+
+#bigtext2 {
+    font-size: 15px;
+    width: 200px;
+    height: 720px;
+    margin-top: 2%;
+    margin-left: 8%;
+    border-right: 0.5px solid #DCDCDC;
+}
+
+.paragraph3 {
+    margin-left: 1%;
+    width: 215px;
+    margin-top: 3.5%;
+    border-right: 0.5px solid #DCDCDC;
+    height: 460px;
+}
+
+.paragraph23 {
+    width: 215px;
+    margin-left: 3%;
+    margin-top: 3.5%;
+    height: 460px;
+    font-size: 15px;
+}
+
+.paragraphss {
+    display: flex;
+    width: 435px;
+}
+
+.paragraph3ed {
+    
 }
