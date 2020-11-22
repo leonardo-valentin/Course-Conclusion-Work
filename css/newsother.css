@@ -9,13 +9,6 @@
     font-size: 15px;
 }
 
-.textoalerta {
-    width: 50%;
-    margin-left: 7%;
-    margin-top: 1%;
-    font-size: 14px;
-}
-
 .imgalerta {
     width:  38px;
     height: 38px;
@@ -120,8 +113,60 @@
 .paragraphss {
     display: flex;
     width: 435px;
+    margin-top: 2%;
 }
 
 .paragraph3ed {
-    
+    margin-left: 1%;
+    width: 215px;
+    margin-top: 3.5%;
+    border-right: 0.5px solid #DCDCDC;
+    font-size: 14px;
+}
+.paragraph3ed2 {
+    width: 215px;
+    margin-left: 3%;
+    margin-top: 3.5%;
+    font-size: 14px;
+}
+
+#actuallyright {
+    width: 450px;
+    height: 880px;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.textoalerta2 {
+    position: absolute;
+    top: 138%;
+    width: 710px;
+    margin-left: 7%;
+    font-size: 13px;
+}
+.imgalerta2 {
+    width:  34px;
+    height: 34px;
+}
+
+#ed3 {
+    margin-left: 7%;
+}
+
+#bigtext3{
+    margin-top: 1%;
+    font-size: 13.5px;
+    width: 200px;
+    height: 720px;
+}
+
+#imged3 {
+    width: 900px;
+    height: 190px;
+}
+
+#imged32 {
+    position: absolute;
+    top: 185%;
+    width: 880px;
 }
