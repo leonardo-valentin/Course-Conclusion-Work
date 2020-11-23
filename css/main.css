@@ -14,11 +14,14 @@
 
 .carrossel{
     width: 80%;
-    height: 100%;
     position: top;
     margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 3px;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.slide {
+    height: 335px;
 }
 
 .carrossel-esp{
@@ -32,20 +35,11 @@
 }
 
 .imagem{
-    height: 200px;
-    width: 900px;
-    border-style: solid;
-    border-width: 2px;
-    margin-top: 5px;
-    margin-left: 225px;
-    margin-right: 225px;
-    margin-bottom: 10px;
     position: top;
-
-    box-sizing: border-box;
-
-    border: 1px solid rgba(0,0,0,.8);
-    border-radius: .25rem;
+    width: 1120px;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 1%;
 }
 
 .tabela{
@@ -74,7 +68,8 @@
 }
 
 #carousel {
-    height: 100%;
+    position: relative;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -336,7 +331,7 @@ box-sizing: border-box;
 border: 1px solid rgba(0,0,0,.325);
 border-radius: .25rem;
 
-margin-bottom: 5px;
+margin-bottom: 5%;
 margin-left: 275px;
-margin-top: 25px;
+margin-top: 15%;
 }
